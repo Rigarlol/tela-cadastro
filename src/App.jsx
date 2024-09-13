@@ -1,8 +1,12 @@
-import './App.css'
+import Estilos from "./components/EstilosGlobais/estilos"
 
 function App() {
   return (
-    <div>oi</div>
+    <div>
+      <Estilos />
+        <h1>Freelando</h1>
+      
+    </div>
   )
 }
 
